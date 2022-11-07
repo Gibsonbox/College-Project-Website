@@ -1,0 +1,226 @@
+body {
+    padding:0;
+    margin:0;
+    background-color:#D7CEC7
+}
+
+/*This is the styling which controls what the nav bar looks like*/
+ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5D5C61;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #c5bab0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+/*This style controls when you hover over your nav bar which colour it will change to.*/
+  li a:hover {
+    background-color: #464646;
+  }
+
+table {
+    border-style: black;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+iframe {
+    text-shadow: 20px 20px;
+}
+
+/*From here is the slideshow CSS for images*/
+.slideshow-container {
+    max-width: 75%;
+    position: relative;
+    margin: auto;
+  }
+
+.myslides {
+    display:none;
+  }
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+/*Displays images in polariod style with text beneath*/
+div.polaroid_style {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(41, 41, 41, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 255);
+    text-align: center;
+  }
+  
+  div.text_under_img {
+    padding: 10px;
+  }
+/**/
+
+
+h1 {
+    text-align:center; 
+    color:#565656;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', 'Sans-Serif'
+}
+
+td {
+    text-align:center;
+    color:#000000;
+    font-weight:bold;
+    scroll-padding-bottom:1%;
+    padding-bottom:1%;
+}
+
+img {
+  padding-bottom:1%;
+}
+
+.Production_Styling {
+    max-height:100%;
+    max-width:100%;
+}
+
+.Production_Style_Text_1 {
+    width: 40%;
+    padding:1%;
+    margin:1%;
+    background-color: #bbb;
+    float:left;
+    padding-bottom:1.5%;
+
+}
+
+.Production_Images {
+    padding:1%;
+    margin-top:1%;
+    margin-bottom:10%;
+    
+}
+
+.Production_Styling_2 {
+    max-height:100%;
+    max-width:100%;
+}
+
+.Production_Style_Text_2 {
+    width: 40%;
+    padding:1%;
+    margin:1%;
+    background-color: #bbb;
+    float:left;
+}
+
+.Contact_Form {
+  max-height: 1000px;
+  overflow: hidden;
+  margin-bottom: 6%;
+}
+
+.software_style {
+  display:block;
+  min-height:100%;
+  overflow-y:visible;
+}
+
+.software_text {
+  display:grid;
+  grid-template-columns:30% 60%;
+  padding:1%;
+  margin:1%;
+  margin-left:10%;
+  margin-right:10%;
+  background-color: #bbb;
+  overflow-y:visible;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+
+.software_images {
+  padding:1%;
+  margin:1%;
+  max-width:100%;
+  max-height:100%;
+  overflow-y:visible;
+
+}
+
+footer {
+  font-style:italic;
+  text-decoration:underline;
+  text-align:center;
+  font-family:'Times New Roman', Times;
+}
+
+.Portfolio {
+  display:grid;
+  grid-template-columns: 60% auto auto;
+  padding:1%;
+  margin:1%;
+  margin-left:5%;
+  margin-right:5%;
+  gap:0.5%;
+}
+
+.Portfolio > div {
+  text-align:center;
+
+}
